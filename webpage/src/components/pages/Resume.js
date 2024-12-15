@@ -1,7 +1,7 @@
 import Header from '../Header';
 import Footer from '../Footer';
 import Container from 'react-bootstrap/Container';
-import pdfLink from '../assets/castillolee-joseleandre-9-3-2024.pdf';
+import pdfLink from '../assets/castillolee-joseleandre-12-15-2024.pdf';
 const Resume = () => {
   return (
     <div className="Resume">

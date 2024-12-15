@@ -19,11 +19,11 @@ const Projects = () => {
         <Container fluid='lg'>
         <Row>
           <Col>
-            <Item1/>
+            <Item1/> {/* andrelee.engineer */}
           </Col>
 
           <Col>
-            <Item2/>
+            <Item6/> {/* Skincare Website*/}
           </Col>
 
           <Col>
@@ -37,11 +37,11 @@ const Projects = () => {
           </Col>
             
           <Col>
-            <Item5/>
+            <Item2/> {/* Digit Classifier */}
           </Col>
 
           <Col>
-            <Item6/>
+            <Item5/> {/* Matamunch */}
           </Col>
 
         </Row>
