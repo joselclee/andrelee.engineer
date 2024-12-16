@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.70678e87.css",
-    "main.js": "/static/js/main.5f58180c.js",
+    "main.css": "/static/css/main.786b672d.css",
+    "main.js": "/static/js/main.11f8b7ad.js",
     "static/media/skincare.mp4": "/static/media/skincare.d886fc092b019b45b6b6.mp4",
     "static/media/movie-demo.mp4": "/static/media/movie-demo.2891858e28326bb35ec4.mp4",
     "static/media/numbers-demo.mp4": "/static/media/numbers-demo.3fa5949985c885a8e49e.mp4",
@@ -9,14 +9,13 @@
     "static/media/tracker-demo.mp4": "/static/media/tracker-demo.35c6285d31f70ca0765b.mp4",
     "static/media/matamunch-demo.jpg": "/static/media/matamunch-demo.b629f39518706a415514.jpg",
     "static/media/source-demo.jpg": "/static/media/source-demo.4d350a9ec0d7116b6611.jpg",
-    "static/media/castillolee-joseleandre-9-3-2024.pdf": "/static/media/castillolee-joseleandre-9-3-2024.b2e5684c40ba94b39d4c.pdf",
-    "static/media/andre.mp4": "/static/media/andre.573853d10c6f5af7ee86.mp4",
+    "static/media/castillolee-joseleandre-12-15-2024.pdf": "/static/media/castillolee-joseleandre-12-15-2024.f01cb16532cc81cb2a28.pdf",
     "index.html": "/index.html",
-    "main.70678e87.css.map": "/static/css/main.70678e87.css.map",
-    "main.5f58180c.js.map": "/static/js/main.5f58180c.js.map"
+    "main.786b672d.css.map": "/static/css/main.786b672d.css.map",
+    "main.11f8b7ad.js.map": "/static/js/main.11f8b7ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.70678e87.css",
-    "static/js/main.5f58180c.js"
+    "static/css/main.786b672d.css",
+    "static/js/main.11f8b7ad.js"
   ]
 }
