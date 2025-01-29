@@ -2,8 +2,9 @@
   "dependencies": {
     "gh-pages": "^6.1.0"
   },
-  "scripts":{
+  "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
-  }   
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://andrelee.engineer"
 }
