@@ -6,7 +6,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 import asset from './assets/item-assets/movie-demo.mp4';
 
-const Item3 = () => {
+const Moviesseur = () => {
   return (
     <div>
         <Card className="normalize">
@@ -30,4 +30,4 @@ const Item3 = () => {
   )
 }
 
-export default Item3
+export default Moviesseur

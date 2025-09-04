@@ -1,11 +1,11 @@
 import Header from '../Header';
 import Footer from '../Footer';
-import Item1 from '../Item1';
-import Item2 from '../Item2';
-import Item3 from '../Item3';
-import Item4 from '../Item4';
-import Item5 from '../Item5';
-import Item6 from '../Item6';
+import Website from '../Website';
+import DigitClassifier from '../DigitClassifier';
+import Moviesseur from '../Moviesseur';
+import TodoList from '../TodoList';
+import Matamunch from '../Matamunch';
+import SkincareSite from '../SkincareSite';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -19,29 +19,29 @@ const Projects = () => {
         <Container fluid='lg'>
         <Row>
           <Col>
-            <Item1/> {/* andrelee.engineer */}
+            <Website />
           </Col>
 
           <Col>
-            <Item6/> {/* Skincare Website*/}
+            <SkincareSite/>
           </Col>
 
           <Col>
-            <Item3/>
+            <Moviesseur />
           </Col>
         </Row>
         <br/>
         <Row>
           <Col>
-            <Item4/>
+            <TodoList />
           </Col>
             
           <Col>
-            <Item2/> {/* Digit Classifier */}
+            <DigitClassifier />
           </Col>
 
           <Col>
-            <Item5/> {/* Matamunch */}
+            <Matamunch />
           </Col>
 
         </Row>

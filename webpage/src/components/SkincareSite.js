@@ -6,7 +6,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 import asset from './assets/item-assets/skincare.mp4';
 
-const Item6 = () => {
+const SkincareSite = () => {
   return (
     <div>
         <Card className="normalize">
@@ -31,4 +31,4 @@ const Item6 = () => {
   )
 }
 
-export default Item6
+export default SkincareSite

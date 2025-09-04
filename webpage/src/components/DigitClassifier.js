@@ -1,4 +1,3 @@
-import React from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -6,7 +5,7 @@ import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 import asset from './assets/item-assets/numbers-demo.mp4';
 
-const Item2 = () => {
+const DigitClassifier = () => {
   return (
     <div>
         <Card className="normalize">
@@ -26,4 +25,4 @@ const Item2 = () => {
   )
 }
 
-export default Item2
+export default DigitClassifier

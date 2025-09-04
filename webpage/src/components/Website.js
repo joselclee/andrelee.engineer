@@ -4,21 +4,21 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import asset from './assets/item-assets/tracker-demo.mp4';
+import asset from './assets/item-assets/source-demo.jpg';
 
-const Item4 = () => {
+const Website = () => {
   return (
     <div>
         <Card className="normalize">
-        <video src={asset} alt="Snippet" className="img-custom" autoPlay loop muted />
+        <Card.Img variant="top" src={asset} alt="Snippet" className="img-custom"/>
             <Card.Body>
-                <Card.Title>Todo List</Card.Title>
+                <Card.Title>Source code</Card.Title>
                 <Card.Text>
-                  Simple Todo list in React with basic functionality like 
-                  adding, removing, and marking tasks as complete.
+                  This is a snippet of the code behind this website.
+                  Click the button below to view the repository.
                   <br/><br/>
                 </Card.Text>
-                <Button variant="dark" href="https://github.com/joselclee/todo-list" target = "_blank">
+                <Button variant="dark" href="https://github.com/joselclee/andrelee.dev" target = "_blank">
                   <FontAwesomeIcon icon={faCode} /> JavaScript
                   </Button>
             </Card.Body>
@@ -27,4 +27,4 @@ const Item4 = () => {
   )
 }
 
-export default Item4
+export default Website

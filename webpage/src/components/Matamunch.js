@@ -4,22 +4,22 @@ import Button from 'react-bootstrap/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCode } from '@fortawesome/free-solid-svg-icons'
 
-import asset from './assets/item-assets/source-demo.jpg';
+import asset from './assets/item-assets/matamunch-demo.jpg';
 
-const Item1 = () => {
+const Matamunch = () => {
   return (
     <div>
         <Card className="normalize">
         <Card.Img variant="top" src={asset} alt="Snippet" className="img-custom"/>
             <Card.Body>
-                <Card.Title>Source code</Card.Title>
+                <Card.Title>Matamunch</Card.Title>
                 <Card.Text>
-                  This is a snippet of the code behind this website.
-                  Click the button below to view the repository.
+                  Food searching program that can search for food using
+                  prices, calories, location, and name.
                   <br/><br/>
                 </Card.Text>
-                <Button variant="dark" href="https://github.com/joselclee/andrelee.dev" target = "_blank">
-                  <FontAwesomeIcon icon={faCode} /> JavaScript
+                <Button variant="dark" href="https://github.com/joselclee/COMP-282-Matamunch" target = "_blank">
+                  <FontAwesomeIcon icon={faCode} /> Java
                   </Button>
             </Card.Body>
         </Card>
@@ -27,4 +27,4 @@ const Item1 = () => {
   )
 }
 
-export default Item1
+export default Matamunch
